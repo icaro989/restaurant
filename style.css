@@ -81,12 +81,36 @@
         }
         
         .section1 {
-            padding-top: 50px;
+            display: flex;
+            padding-top: 54px;
             max-width: 100%;
             background-repeat: no-repeat;
-            /* background-image: url(https://img.freepik.com/free-photo/top-view-healthy-balanced-vegetarian-food_1150-37023.jpg?w=740&t=st=1661881393~exp=1661881993~hmac=52f0e57ae7f0cb0817a09b27f74d004ecb1f683d55aff05eda52244bcee5b57a);*/
+            justify-content: center;
+            align-items: center;
         }
         
         img {
             width: 100%;
+        }
+        
+        .about-us {
+            margin: auto;
+            width: 80%;
+            padding: 50px;
+            position: absolute;
+            top: 100px;
+            text-align: center;
+            background-color: #fff;
+            opacity: 80%;
+        }
+        
+        .menu1 {
+            margin: auto;
+            width: 80%;
+            padding: 50px;
+            position: absolute;
+            top: 800px;
+            text-align: center;
+            background-color: #fff;
+            opacity: 80%;
         }
