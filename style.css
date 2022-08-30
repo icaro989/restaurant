@@ -19,6 +19,7 @@ body {
 /* ///////////..utility classes../////////// */
 
 .container {
+    position: relative;
     max-width: 1200px;
     width: 90%;
     margin: auto;
@@ -34,16 +35,6 @@ body {
     margin-top: 1em;
     text-transform: uppercase;
     font-weight: small;
-}
-
-.btn-primary {
-    color: #fff;
-    background: #16a083;
-}
-
-.btn-primary:hover {
-    background: #117964;
-    transition: background 0.3s ease-in-out;
 }
 
 
@@ -94,7 +85,7 @@ body {
 }
 
 .menu-items a:hover {
-    border-radius: 15px;
+    border-radius: 8px;
     background-color: #117964;
     color: #F3FA1C;
     transition: color 0.3s ease-in-out;
@@ -104,4 +95,12 @@ body {
     order: 1;
     font-size: 2.3rem;
     margin-bottom: 0.5rem;
+}
+
+.section1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/top-view-healthy-balanced-vegetarian-food_1150-37023.jpg?w=740&t=st=1661881393~exp=1661881993~hmac=52f0e57ae7f0cb0817a09b27f74d004ecb1f683d55aff05eda52244bcee5b57a);
 }
