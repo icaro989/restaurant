@@ -80,9 +80,24 @@
             margin-bottom: 0.5rem;
         }
         
-        .section1 {
+        .home {
             display: flex;
-            padding-top: 54px;
+            right: 0;
+            left: 0;
+            padding: 50px;
+            position: absolute;
+            justify-content: center;
+        }
+        
+        .int-main {
+            width: 500px;
+            height: 500px;
+            border: #000 solid 4px;
+        }
+        
+        .section2 {
+            display: flex;
+            padding-top: 570px;
             max-width: 100%;
             background-repeat: no-repeat;
             justify-content: center;
@@ -98,7 +113,7 @@
             width: 80%;
             padding: 50px;
             position: absolute;
-            top: 100px;
+            top: 669px;
             text-align: center;
             background-color: #fff;
             opacity: 80%;
@@ -109,7 +124,7 @@
             width: 80%;
             padding: 50px;
             position: absolute;
-            top: 800px;
+            top: 1258px;
             text-align: center;
             background-color: #fff;
             opacity: 80%;
