@@ -90,9 +90,8 @@
         }
         
         .int-main {
-            width: 500px;
-            height: 500px;
-            border: #000 solid 4px;
+            padding: 50px;
+            text-align: center;
         }
         
         .section2 {
@@ -104,8 +103,8 @@
             align-items: center;
         }
         
-        img {
-            width: 100%;
+        .img-bg1 {
+            width: 88%;
         }
         
         .about-us {
@@ -113,7 +112,7 @@
             width: 80%;
             padding: 50px;
             position: absolute;
-            top: 669px;
+            top: 763px;
             text-align: center;
             background-color: #fff;
             opacity: 80%;
@@ -124,8 +123,17 @@
             width: 80%;
             padding: 50px;
             position: absolute;
-            top: 1258px;
+            top: 1526px;
             text-align: center;
             background-color: #fff;
             opacity: 80%;
+        }
+        
+        .section3 {
+            display: flex;
+            height: 500px;
+            max-width: 100%;
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
         }
