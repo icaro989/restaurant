@@ -137,3 +137,65 @@
             justify-content: center;
             align-items: center;
         }
+        
+        .Flip-todo {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .card {
+            position: relative;
+            height: 348px;
+            width: 348px;
+            margin: 5px;
+            perspective: 900px;
+        }
+        
+        .card:hover .flip {
+            transform: rotateY(180deg);
+        }
+        
+        .flip {
+            transition: transform 0.5s;
+            transform-style: preserve-3d;
+        }
+        
+        .front-card,
+        .back-card {
+            border-radius: 25px;
+            position: absolute;
+            backface-visibility: hidden;
+        }
+        
+        .back-card {
+            display: flex;
+            width: 348px;
+            height: 300px;
+            align-items: center;
+            text-align: center;
+            background: #117964;
+            transform: rotatey(180deg);
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .front-card img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            box-shadow: 0 0 8px 0 rgba(31, 255, 50, 0.575);
+        }
+        
+        .price {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .ingred {
+            color: #fff;
+            text-align: center;
+            justify-content: center;
+        }
