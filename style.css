@@ -81,6 +81,7 @@
         }
         
         .home {
+            background-color: #117964;
             display: flex;
             right: 0;
             left: 0;
@@ -96,7 +97,7 @@
         
         .section2 {
             display: flex;
-            padding-top: 570px;
+            padding-top: 377px;
             max-width: 100%;
             background-repeat: no-repeat;
             justify-content: center;
@@ -198,4 +199,24 @@
             color: #fff;
             text-align: center;
             justify-content: center;
+        }
+        
+        .contact {
+            background-color: #117964;
+            display: flex;
+            height: 500px;
+            max-width: 100%;
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mensage {
+            background-color: #fff;
+            width: 1100px;
+            height: 400px;
+        }
+        
+        .fot {
+            font-size: 8px;
         }
